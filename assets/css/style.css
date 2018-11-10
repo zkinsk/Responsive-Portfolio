@@ -105,6 +105,8 @@ header {
 .navList li a:hover {
     color: white;
     background: #4aaaa5;
+    transition-property: background-color, color;
+    transition-duration: 0.75s;
 }
 .navBar li:last-child {
     border: none;
@@ -284,6 +286,8 @@ img {
 
 
 .portBox>a:hover {
+    transition-property: background-color;
+    transition-duration: 0.5s;
     color: rgba(255, 255, 255, 0.808);
     background: #37797588;
     padding-top: 10px;
